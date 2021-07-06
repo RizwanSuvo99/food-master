@@ -1,0 +1,249 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+/* font-family: 'Poppins', sans-serif; */
+
+/* Default CSS */
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+.btn {
+  font-size: 1.4rem;
+  text-transform: capitalize;
+  padding: 1.5rem 2.8rem;
+  border-radius: 3.2rem;
+  background: linear-gradient(to right, #fb8e49, #f64e2f);
+  transition: 0.8s all ease;
+  color: #fff;
+  box-shadow: 1px 1px 10px #fb924a, -1px -1px 5px #fb924a;
+  display: inline-block;
+}
+
+.btn:hover {
+  background: linear-gradient(to right, #f64e2f, #fb8e49);
+  transition: 0.8s all ease;
+}
+/* Hero Section CSS Start */
+
+.hero {
+  display: flex;
+  padding: 10rem 0 0 2rem;
+}
+
+.hero-left {
+  padding-top: 10rem;
+}
+
+.hero-left > * {
+  margin-bottom: 4rem;
+}
+
+.hero-left-heading {
+  font-size: 5rem;
+  text-transform: capitalize;
+  color: #575757;
+  font-weight: 600;
+}
+
+.hero-left-heading-color {
+  color: #fb934a;
+}
+
+.hero-left-text {
+  font-size: 2rem;
+  color: #828282;
+  font-weight: 400;
+  width: 80%;
+}
+
+.hero-right-image {
+  width: 100%;
+}
+/* Hero Section CSS End */
+
+/* About Section CSS Start */
+.about {
+  display: flex;
+  background-image: url("images/shapes/7.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  padding: 5rem 15rem 0 15rem;
+  width: 100%;
+}
+
+.about-left-image {
+  width: 30rem;
+}
+
+.about-right {
+  padding: 10rem 0 0 20rem;
+}
+.about-right > * {
+  margin-bottom: 3rem;
+}
+
+.about-right-heading {
+  font-size: 3.5rem;
+  text-transform: capitalize;
+  color: #828282;
+  font-weight: 600;
+}
+
+.about-right-text {
+  font-size: 2rem;
+  color: #575757;
+  font-weight: 400;
+  width: 80%;
+}
+/* About Section CSS End */
+
+/* Blog Section CSS Start */
+.blog-header {
+  padding-top: 5rem;
+}
+.blog-header-heading {
+  font-size: 3.5rem;
+  text-transform: capitalize;
+  color: #575757;
+  font-weight: 600;
+  text-align: center;
+}
+.blog-header-text {
+  font-size: 2rem;
+  color: #828282;
+  font-weight: 400;
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+.blog-header > * {
+  margin-bottom: 2rem;
+}
+
+.blog-box {
+  display: flex;
+  padding: 5rem 7rem 0 7rem;
+}
+
+.blog-box-item {
+  width: 33%;
+  box-shadow: 1px 1px 15px #828282, -1px -1px 15px #828282;
+  border-radius: 3rem;
+  padding: 2rem;
+  transition: 0.2s all ease;
+  cursor: pointer;
+}
+.blog-box-item:hover {
+  transform: scale(1.05);
+  transition: 0.2s all ease;
+}
+.blog-box-item > * {
+  margin-bottom: 1.5rem;
+}
+.blog-box-item:not(:last-child) {
+  margin-right: 7rem;
+}
+.blog-box-item-image {
+  width: 100%;
+}
+
+.blog-box-item-heading {
+  font-size: 2.5rem;
+  text-transform: capitalize;
+  color: black;
+  font-weight: 600;
+}
+.blog-box-item-text {
+  font-size: 1.6rem;
+  color: black;
+  font-weight: 400;
+  text-align: justify;
+}
+/* Blog Section CSS End */
+
+/* Subscribe Section CSS Start */
+.subscribe {
+  margin: 10rem 0 5rem 7rem;
+  display: flex;
+  box-shadow: 1px 1px 15px #828282, -1px -1px 15px #828282;
+  border-radius: 1.5rem;
+}
+.subscribe-item {
+  width: 33%;
+  display: grid;
+  justify-content: center;
+  padding: 2rem 3rem;
+}
+
+.subscribe-item-heading {
+  font-size: 4rem;
+  text-transform: capitalize;
+  color: black;
+  font-weight: 700;
+}
+.subscribe-item-text {
+  font-size: 1.4rem;
+  color: #575757;
+  font-weight: 500;
+}
+/* Suncribe Section CSS End */
+
+/* Footer CSS Start */
+.footer {
+  background-color: #0b0d17;
+  padding-top: 5rem;
+}
+
+.footer-heading {
+  font-size: 3rem;
+  text-transform: capitalize;
+  color: #5b5b5b;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+.footer-heading-color-text {
+  color: #fb994c;
+}
+
+.footer-text {
+  font-size: 1.2rem;
+  color: #fff;
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.footer-copyright {
+  font-size: 1rem;
+  color: #fff;
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+  text-align: right;
+}
+/* Footer CSS End */
